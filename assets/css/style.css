@@ -1,0 +1,95 @@
+
+.imagem{
+    width: 1390px;
+    height: 200px;
+}
+
+#menu li{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+#menu{
+    background-color: rgb(155, 235, 8)
+}
+
+#menu li {
+    display: inline;
+    padding: 16px;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color: rgb(10, 57, 2);
+}
+
+
+
+
+#menu1 li{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+#menu1{
+    background-color: rgb(137, 251, 255)
+}
+
+#menu1 li {
+    display: inline;
+    padding: 16px;
+}
+
+#menu1 li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu1 li a:hover{
+    color: rgb(1, 4, 83);
+}
+
+.borda{
+    border-radius: 50%;
+    border-width: 30px;
+    border-style: double; 
+    border-color:  rgb(155, 235, 8) rgb(137, 251, 255); 
+}
+
+.tmhimg{
+    width: 450px;
+    height: 450px;
+}
+
+.f{
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.p{
+    font-size: 20px;
+}
+
+.tm-social{
+    width: 30px;
+    height: 30px;
+}
+

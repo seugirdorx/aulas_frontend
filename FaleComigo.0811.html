@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Comigo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="body" background="https://img.elo7.com.br/product/original/1EEE464/papel-de-parede-paisagem-oceanos-0001-adesivo-de-parede-papel-de-parede-infantil.jpg">
+
+  
+    <div>
+        <ul class="center aumenta efeito" id="menu">
+            <li>
+                <a href="MeuSiteExperimento.0811.html">Página Inicial</a>
+            </li>
+        </ul>
+        <ul class="center aumenta efeito" id="menu1">
+            <li>
+                <a href="FaleComigo.0811.html">Fale Comigo</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="center">
+        <h1 class="f fonte">Me mande uma mensagem!</h1>
+        <p class="f p fonte">Dúvidas? Curiosidades? Sugestões de animais para aparecer no site? Por favor, entre em contato comigo no formulário abaixo!
+        </p>
+    </div>
+
+    <div>
+    <form class="center">
+        <label class="f p fonte" for="nome">Nome: </label>
+        <br>
+        <input class="borda1" type="text" id="nome" placeholder="Digite seu nome" onkeyup="validarNome()">
+        <div id="txtNome">
+
+        </div>
+        <br>
+        <label class="f p fonte" for="email">Email: </label>
+        <br>
+        <input class="borda1" type="email" id="email" placeholder="Digite seu e-mail" onkeyup="validarEmail()">
+        <div id="txtEmail">
+
+        </div>
+        <br>
+        <label class="f p fonte" for="assunto">Assunto: </label>
+        <br>
+        <textarea class="borda1" name="assunto" id="assunto" cols="60" rows="5" onkeyup="validarAssunto()"></textarea>
+        <div id="txtAssunto">
+
+        </div>
+        <br>
+        <button onclick="enviar()" class="p fonte borda1 mouse">Enviar</button>
+    </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    
+     <footer class="center fundo1">
+        <a href="https://www.instagram.com/seugirdorx/"><img class="tm-social" src="assets/img/instagram.png" alt="Imagem ilustrativa da logo do Instagram"></a>
+        <a href="https://www.linkedin.com/in/amanda-rocha-a51767253"><img class="tm-social" src="assets/img/linkedin.png" alt="Imagem Ilustrativa da logo do Linkedin"></a>
+    </footer>
+
+    <footer class="center fundo2">
+        <p class="p fonte">Todos os direitos são reservados: Amanda Rocha &copy;</p>
+    </footer> 
+
+    <script src="assets/js/script.js"></script>
+
+</body>
+</html>

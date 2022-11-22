@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter x Hunter</title>
+    <link rel="icon" type="imagem/png" href="assets/img/icone.png"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+
+<body class="bgc">
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <img src="assets/img/icone.png" class="navbar-brand icone">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+            aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link text-success" href="#carouselExampleIndicators">Página Inicial <span class="sr-only">(página
+                            atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="#Historia">História</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-success" href="#Personagens">Personagens</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Arcos
+                    </a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-success" href="#Exame">Exame Hunter</a>
+                        <a class="dropdown-item text-success" href="#Familia">Família Zoldyck</a>
+                        <a class="dropdown-item text-success" href="#Torre">Torre Celestial</a>
+                        <a class="dropdown-item text-success" href="#Leilao">Leilão de Yorkshin</a>
+                        <a class="dropdown-item text-success" href="#Greed">Greed Island</a>
+                        <a class="dropdown-item text-success" href="#Formigas">Formigas Quimera</a>
+                        <a class="dropdown-item text-success" href="#Eleição">Eleição</a>
+                        <a class="dropdown-item text-success" href="#Expedicao">Expedição ao Continente Negro</a>
+                        <a class="dropdown-item text-success" href="#Concurso">Concurso de Sucessão</a>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-success" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Categorias do Nen
+                    </a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-success" href="#Categorias">Reforço</a>
+                        <a class="dropdown-item text-success" href="#Categorias">Transformação</a>
+                        <a class="dropdown-item text-success" href="#Categorias">Materialização</a>
+                        <a class="dropdown-item text-success" href="#Categorias">Emissão</a>
+                        <a class="dropdown-item text-success" href="#Categorias">Manipulação</a>
+                        <a class="dropdown-item text-success" href="#Categorias">Especialização</a>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="assets/img/imagem3.jpg" alt="Imagem 1 HXH">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/imagem1.jpg" alt="Imagem 2 HXH">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/imagem2.jpg" alt="Imagem 3 HXH">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="assets/img/imagem4.jpg" alt="Imagem 4 HXH">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <div class="container bg-dark">
+        <div class="row d-flex justify content-center">
+            <div class="col-md-9">
+                <h3 id="Historia" class="text-danger center">História</h3>
+                <p class="text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates soluta, et
+                    aperiam adipisci nesciunt porro modi nam cumque dolorem, tempore iusto laudantium ducimus officiis
+                    atque quidem assumenda sapiente iste. Deserunt.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus unde dolorem rem impedit
+                    necessitatibus. Ex veritatis harum minus sed repellat incidunt eveniet nulla totam quia, minima
+                    distinctio recusandae voluptatem quis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis sed eius ea. Sequi, consectetur! Eos velit aut recusandae voluptatum repellendus impedit
+                    eaque dolorem nemo delectus consectetur laboriosam, quos, amet nisi? Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Omnis qui rem expedita facilis, hic velit molestias inventore
+                    voluptas, officia veritatis voluptates, dicta nobis. Eaque, recusandae saepe. Iusto deleniti
+                    excepturi aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis mollitia
+                    laboriosam obcaecati nostrum cumque vero rem nemo aperiam incidunt dicta voluptates omnis
+                    perferendis, sunt deserunt consectetur eaque temporibus perspiciatis adipisci. Lorem ipsum dolor sit
+                    amet consectetur adipisicing elit. Doloremque non ipsa aliquid. Accusantium, tempore sunt. Ea
+                    accusamus mollitia neque! Pariatur est sunt qui nihil laudantium dolorum.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="assets/img/Yoshihiro-togashi.webp">
+                <p class="text-success center">Yoshihiro Togashi</p>
+            </div>
+            <div class="col-md-12 text-success">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem molestias consectetur adipisci autem
+                    quaerat eaque fugit officia fugiat est suscipit blanditiis nulla, iste mollitia aspernatur molestiae
+                    laborum animi beatae ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolores
+                    illo fuga modi qui architecto ullam. Rem voluptate recusandae, quod consectetur impedit inventore
+                    quisquam eum nulla consequatur sapiente porro sit. Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Repellendus nobis, inventore nisi ducimus facere labore laboriosam atque sed
+                    neque. Autem id nulla ipsum magnam perspiciatis laborum suscipit voluptas ratione sit! Lorem ipsum
+                    dolor sit amet consectetur adipisicing elit. Omnis iste alias mollitia vero tempore. Consectetur
+                    commodi incidunt animi iure veritatis officiis quaerat iusto praesentium fugiat possimus? Fugit
+                    consequatur debitis eum?
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark">
+        <h3 class="text-danger center">Personagens</h3>
+        <div class="row d-flex justify content-center">
+            <div class="card col-md-3 bg-dark" style="width: 18rem;" id="Personagens">
+                <img class="card-img-top" src="assets/img/p1.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger center">Gon Freecs</h5>
+                    <p class="card-text text-success center">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Quibusdam culpa totam quasi blanditiis sed hic necessitatibus debitis aspernatur? Omnis mollitia
+                        ipsum amet vero? Modi, officia! Eligendi saepe quisquam iste reiciendis?</p>
+                </div>
+            </div>
+            <div class="card col-md-3 bg-dark" style="width: 18rem;" id="Personagens">
+                <img class="card-img-top" src="assets/img/p2.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger center">Killua Zoldyck</h5>
+                    <p class="card-text text-success center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Deleniti nemo nulla quo animi maiores vero quas? Porro officiis pariatur nulla dolores qui,
+                        aperiam corrupti architecto ea ducimus voluptates aliquam recusandae?</p>
+                </div>
+            </div>
+            <div class="card col-md-3 bg-dark" style="width: 18rem;" id="Personagens">
+                <img class="card-img-top" src="assets/img/p3.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger center">Kurapika Kuruta</h5>
+                    <p class="card-text text-success center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Recusandae quae quisquam magni possimus iure velit, ex quis expedita quia qui rem esse similique
+                        beatae sed eaque, sapiente cumque nostrum? Similique?.</p>
+                </div>
+            </div>
+            <div class="card col-md-3 bg-dark" style="width: 18rem;" id="Personagens">
+                <img class="card-img-top" src="assets/img/p4.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title text-danger center">Leorio Paradinight</h5>
+                    <p class="card-text text-success center">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Eligendi nobis magnam doloribus dolorum enim repellendus eum maiores explicabo soluta fugiat
+                        molestias in, ipsa beatae facilis, quibusdam sapiente! Eligendi, dolores pariatur.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark">
+        <h3 class="text-danger center">Categorias do Nen</h3>
+        <div class="col-md-12 center">
+            <img class="imagem" src="assets/img/nen.jpg">
+        </div>
+        <div class="row d-flex justify content-center">
+            <div class="card col-md-4 bg-dark" style="width: 18rem;" id="Categorias">
+                <div class="card-body">
+                    <h5 class="card-title text-danger center">Reforço</h5>
+                    <p class="card-text text-success center">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Quibusdam culpa totam quasi blanditiis sed hic necessitatibus debitis aspernatur? Omnis mollitia
+                        ipsum amet vero? Modi, officia! Eligendi saepe quisquam iste reiciendis?</p>
+                </div>
+            </div>
+            <div class="card col-md-4 bg-dark" style="width: 18rem;" id="Categorias">
+                <div class="card-body">
+                    <h5 class="card-title text-danger center">Transformação</h5>
+                    <p class="card-text text-success center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Deleniti nemo nulla quo animi maiores vero quas? Porro officiis pariatur nulla dolores qui,
+                        aperiam corrupti architecto ea ducimus voluptates aliquam recusandae?</p>
+                </div>
+            </div>
+            <div class="card col-md-4 bg-dark" style="width: 18rem;" id="Categorias">
+                <div class="card-body">
+                    <h5 class="card-title text-danger center">Materialização</h5>
+                    <p class="card-text text-success center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Recusandae quae quisquam magni possimus iure velit, ex quis expedita quia qui rem esse similique
+                        beatae sed eaque, sapiente cumque nostrum? Similique?.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-dark">
+    <div class="row d-flex justify content-center">
+        <div class="card col-md-4 bg-dark" style="width: 18rem;" id="Categorias">
+            <div class="card-body">
+                <h5 class="card-title text-danger center">Emissão</h5>
+                <p class="card-text text-success center">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Quibusdam culpa totam quasi blanditiis sed hic necessitatibus debitis aspernatur? Omnis mollitia
+                    ipsum amet vero? Modi, officia! Eligendi saepe quisquam iste reiciendis?</p>
+            </div>
+        </div>
+        <div class="card col-md-4 bg-dark" style="width: 18rem;" id="Categorias">
+            <div class="card-body">
+                <h5 class="card-title text-danger center">Manipulação</h5>
+                <p class="card-text text-success center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Deleniti nemo nulla quo animi maiores vero quas? Porro officiis pariatur nulla dolores qui, aperiam
+                    corrupti architecto ea ducimus voluptates aliquam recusandae?</p>
+            </div>
+        </div>
+        <div class="card col-md-4 bg-dark" style="width: 18rem;" id="Categorias">
+            <div class="card-body">
+                <h5 class="card-title text-danger center">Especialização</h5>
+                <p class="card-text text-success center">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Recusandae quae quisquam magni possimus iure velit, ex quis expedita quia qui rem esse similique
+                    beatae sed eaque, sapiente cumque nostrum? Similique?.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container bg-dark" id="Exame">
+        <h3 class="text-danger center">Arcos de Hunter x Hunter</h3>
+        <div class="row">
+            <div class="col-md-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/img/E1.webp" alt="Imagem 1 HXH">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/img/E2.webp" alt="Imagem 2 HXH">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <h4 class="center text-danger">Exame Hunter</h4>
+                <p class="center text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    asperiores! Numquam, veritatis! Dolorum totam fugiat alias in, minima pariatur animi quae corrupti
+                    laborum molestiae aperiam tenetur voluptatem nostrum fugit quidem. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Expedita a exercitationem corrupti tempore voluptatem dicta animi
+                    voluptate molestiae voluptatibus sed. Commodi ex delectus, eligendi deleniti eum provident quos
+                    voluptas voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Error neque vitae assumenda suscipit. Eum unde, eaque, optio quis odio sint eius voluptatem perspiciatis deserunt culpa distinctio mollitia? Rerum, expedita velit.</p>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="container bg-dark" id="Familia">
+        <div class="row">
+            <div class="col-md-7">
+            <h4 class="center text-danger">Família Zoldyck</h4>
+            <p class="center text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            asperiores! Numquam, veritatis! Dolorum totam fugiat alias in, minima pariatur animi quae corrupti
+            laborum molestiae aperiam tenetur voluptatem nostrum fugit quidem. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Expedita a exercitationem corrupti tempore voluptatem dicta animi
+            voluptate molestiae voluptatibus sed. Commodi ex delectus, eligendi deleniti eum provident quos
+            voluptas voluptate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cupiditate, iure? Possimus fugit optio eaque, dolorum molestias odit velit assumenda aliquid, quidem ea quia rerum quibusdam est dicta fuga voluptatibus deserunt?</p>
+            </div>
+            
+            <div class="col-md-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/img/A1.webp" alt="Imagem 1 HXH">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/A2.webp" alt="Imagem 2 HXH">
+                    </div>
+                
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark" id="Torre">
+        <div class="row">
+            <div class="col-md-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/img/B1.webp" alt="Imagem 1 HXH">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/img/B2.jpg" alt="Imagem 2 HXH">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <h4 class="center text-danger">Torre Celestial</h4>
+                <p class="center text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    asperiores! Numquam, veritatis! Dolorum totam fugiat alias in, minima pariatur animi quae corrupti
+                    laborum molestiae aperiam tenetur voluptatem nostrum fugit quidem. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Expedita a exercitationem corrupti tempore voluptatem dicta animi
+                    voluptate molestiae voluptatibus sed. Commodi ex delectus, eligendi deleniti eum provident quos
+                    voluptas voluptate? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim, perspiciatis. Voluptates natus quisquam omnis asperiores inventore ducimus magni delectus assumenda vitae possimus reprehenderit itaque labore deserunt eveniet, sit facere ex.</p>
+            </div>
+        </div>
+    </div>
+ 
+    <div class="container bg-dark" id="Leilao">
+        <div class="row">
+            <div class="col-md-7">
+            <h4 class="center text-danger">Leilão de Yorkshin</h4>
+            <p class="center text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            asperiores! Numquam, veritatis! Dolorum totam fugiat alias in, minima pariatur animi quae corrupti
+            laborum molestiae aperiam tenetur voluptatem nostrum fugit quidem. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Expedita a exercitationem corrupti tempore voluptatem dicta animi
+            voluptate molestiae voluptatibus sed. Commodi ex delectus, eligendi deleniti eum provident quos
+            voluptas voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium illo et sunt tempore fugiat voluptatibus. Voluptatibus, minus eveniet? Corrupti veritatis ut debitis error repudiandae, impedit ipsam sunt! Et, delectus.</p>
+            </div>
+            
+            <div class="col-md-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/img/C1.jpg" alt="Imagem 1 HXH">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/C2.webp" alt="Imagem 2 HXH">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark" id="Greed">
+        <div class="row">
+            <div class="col-md-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/img/D1.jpg" alt="Imagem 1 HXH">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/img/D2.jpg" alt="Imagem 2 HXH">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <h4 class="center text-danger">Greed Island</h4>
+                <p class="center text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    asperiores! Numquam, veritatis! Dolorum totam fugiat alias in, minima pariatur animi quae corrupti
+                    laborum molestiae aperiam tenetur voluptatem nostrum fugit quidem. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Expedita a exercitationem corrupti tempore voluptatem dicta animi
+                    voluptate molestiae voluptatibus sed. Commodi ex delectus, eligendi deleniti eum provident quos
+                    voluptas voluptate? Lorem ipsum dolor sit, amet consectetur adipisicing elit. A aperiam vero id ad ex maxime obcaecati veniam eum accusantium, recusandae est deleniti modi adipisci laborum beatae omnis. Sunt, quam vitae!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark" id="Formigas">
+        <div class="row">
+            <div class="col-md-7">
+            <h4 class="center text-danger">Formigas Quimera</h4>
+            <p class="center text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            asperiores! Numquam, veritatis! Dolorum totam fugiat alias in, minima pariatur animi quae corrupti
+            laborum molestiae aperiam tenetur voluptatem nostrum fugit quidem. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Expedita a exercitationem corrupti tempore voluptatem dicta animi
+            voluptate molestiae voluptatibus sed. Commodi ex delectus, eligendi deleniti eum provident quos
+            voluptas voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur iusto exercitationem repudiandae accusantium eum repellat nam distinctio deleniti. Quaerat possimus alias reprehenderit ipsa dolore? Excepturi ab esse aliquam velit iure.</p>
+            </div>
+            
+            <div class="col-md-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/img/F1.jpg" alt="Imagem 1 HXH">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/F2.png" alt="Imagem 2 HXH">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark" id="Eleição">
+        <div class="row">
+            <div class="col-md-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/img/G1.webp" alt="Imagem 1 HXH">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/img/G2.webp" alt="Imagem 2 HXH">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <h4 class="center text-danger">Eleição</h4>
+                <p class="center text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    asperiores! Numquam, veritatis! Dolorum totam fugiat alias in, minima pariatur animi quae corrupti
+                    laborum molestiae aperiam tenetur voluptatem nostrum fugit quidem. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Expedita a exercitationem corrupti tempore voluptatem dicta animi
+                    voluptate molestiae voluptatibus sed. Commodi ex delectus, eligendi deleniti eum provident quos
+                    voluptas voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur exercitationem perspiciatis officia quis cupiditate beatae ut itaque, consequatur sed quam dignissimos soluta velit vel nisi laudantium? Repellendus et molestiae deserunt.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark" id="Expedicao">
+        <div class="row">
+            <div class="col-md-7">
+            <h4 class="center text-danger">Expedição ao Continente Negro</h4>
+            <p class="center text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+            asperiores! Numquam, veritatis! Dolorum totam fugiat alias in, minima pariatur animi quae corrupti
+            laborum molestiae aperiam tenetur voluptatem nostrum fugit quidem. Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit. Expedita a exercitationem corrupti tempore voluptatem dicta animi
+            voluptate molestiae voluptatibus sed. Commodi ex delectus, eligendi deleniti eum provident quos
+            voluptas voluptate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem et minus nam nemo deleniti libero enim exercitationem excepturi, fugit corrupti placeat nobis modi praesentium voluptate aliquid vitae ducimus. Inventore, architecto?</p>
+            </div>
+            
+            <div class="col-md-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/img/H1.webp" alt="Imagem 1 HXH">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/H2.jpg" alt="Imagem 2 HXH">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container bg-dark" id="Concurso">
+        <div class="row">
+            <div class="col-md-5">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="assets/img/I1.webp" alt="Imagem 1 HXH">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="assets/img/I2.jpg" alt="Imagem 2 HXH">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-7">
+                <h4 class="center text-danger">Concurso de Sucessão</h4>
+                <p class="center text-success">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro,
+                    asperiores! Numquam, veritatis! Dolorum totam fugiat alias in, minima pariatur animi quae corrupti
+                    laborum molestiae aperiam tenetur voluptatem nostrum fugit quidem. Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Expedita a exercitationem corrupti tempore voluptatem dicta animi
+                    voluptate molestiae voluptatibus sed. Commodi ex delectus, eligendi deleniti eum provident quos
+                    voluptas voluptate?</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container center bg-dark">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/faqmNf_fZlE" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+    </div>
+
+    <div class="container bg-dark">
+        <h2 class="text-danger center">Se inscreva para participar do próximo Exame Hunter!</h2>
+        <form class="col-md-12">
+            <label for="nome" class="center text-success">Nome: </label>
+            <input type="text" id="nome" placeholder="Digite seu nome" onkeyup="validarNome()">
+            <div id="txtNome">
+            </div>
+            <label for="email" class="center text-success">Email: </label>
+            <input type="email" id="email" placeholder="Digite seu e-mail" onkeyup="validarEmail()">
+            <div id="txtEmail">
+            </div>
+            <label for="assunto" class="center text-success">Assunto: </label>
+            <textarea name="assunto" id="assunto" cols="144" rows="5" onkeyup="validarAssunto()"></textarea>
+            <div id="txtAssunto">
+            </div>
+            <button onclick="enviar()">Enviar</button>
+    </div>
+    </form>
+
+    <footer class="bg-dark container center">
+        <a href="https://www.instagram.com/seugirdorx/"><img class="icone" src="assets/img/instagram.png"></a>
+        <a href="https://www.linkedin.com/in/amanda-rocha-a51767253"><img class="icone" src="assets/img/linkedin.png"></a>
+        <p class="text-success">Todos os direitos reservados: Amanda Rocha &copy;</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
